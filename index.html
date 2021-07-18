@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leader Board</title>
+  <!-- Bootstrap Stylesheet -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body style="background-color: #F3F1FF;">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #562EFF;">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/icons/logo.png" width="40" height="51" alt="">
+          <span class="ms-3 h5">Idea</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img src="images/icons/profile.png" width="51" height="51" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- top player and top blog -->
+  <section class="container bg-white pb-4 rounded">
+    <h3 class="my-5 pt-4" style="color: #562EFF;">Top Player</h3>
+    <div class="row gy-4 ms-3">
+      <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center">
+        <img src="images/players/player-1.png" alt="" width="56" height="56">
+        <h5 class="ms-3">John Smith</h5>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center">
+        <img src="images/players/player-2.png" alt="" width="56" height="56">
+        <h5 class="ms-3">Pro Rasel</h5>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center">
+        <img src="images/players/player-3.png" alt="" width="56" height="56">
+        <h5 class="ms-3">Abu Sufian</h5>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center">
+        <img src="images/players/player-4.png" alt="" width="56" height="56">
+        <h5 class="ms-3">Shajedul Karim</h5>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center">
+        <img src="images/players/player-5.png" alt="" width="56" height="56">
+        <h5 class="ms-3">Maruf Ahmed</h5>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center">
+        <img src="images/players/player-6.png" alt="" width="56" height="56">
+        <h5 class="ms-3">Mujahid</h5>
+      </div>
+    </div>
+    <hr class="mt-5">
+
+    <!-- Blog -->
+    <div class="top-blog">
+      <h3 class="my-5" style="color: #562EFF;">Top Blogs</h3>
+      <div class="row gy-4 ms-3">
+        <div class="col-lg-6 col-md-12 d-flex align-items-center">
+          <div class="col-md-4">
+            <img src="images/blogs/blog-1.png" alt="" width="177" height="117">
+          </div>
+          <div class="div ms-3 col-md-6">
+            <h4>13 of My Favorite UI/UX Goodies</h4>
+            <p class="text-muted">By <a href="#" style="text-decoration: none;">Danny Sapio</a></p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 d-flex align-items-center">
+          <div class="col-md-4">
+            <img src="images/blogs/blog-2.png" alt="" width="177" height="117">
+          </div>
+          <div class="div ms-3 col-md-6">
+            <h4>UI cheat sheet: list vs grids</h4>
+            <p class="text-muted">By <a href="#" style="text-decoration: none;">Tess Gadd</a></p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 d-flex align-items-center">
+          <div class="col-md-4">
+            <img src="images/blogs/blog-3.png" alt="" width="177" height="117">
+          </div>
+          <div class="div ms-3 col-md-6">
+            <h4>7 typography tips for interface design</h4>
+            <p class="text-muted">By <a href="#" style="text-decoration: none;">Jeremiah Lam</a></p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 d-flex align-items-center">
+          <div class="col-md-4">
+            <img src="images/blogs/blog-4.png" alt="" width="177" height="117">
+          </div>
+          <div class="div ms-3 col-md-6">
+            <h4>Your logo is copied</h4>
+            <p class="text-muted">By <a href="#" style="text-decoration: none;">Ferdinand Vogler</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Course -->
+  <section class="container bg-white pb-1 mb-3">
+    <h3 class="my-5 pt-4" style="color: #562EFF;">Latest Courses</h3>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-sm-1 row-cols-lg-3 g-4 mb-5 ms-1">
+      <div class="col">
+        <div class="card h-100 p-3 shadow-sm border-0">
+          <img src="images/courses/course-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">React - The Complete Guide 2020</h5>
+            <p class="card-text" style="color: #FF4A60;">Reed Krakoff.</p>
+            <div class="course-detail d-flex align-items-start justify-content-between">
+              <div class="star">
+                <i class="bi bi-star text-warning"></i>
+                <i class="bi bi-star text-warning"></i>
+                <i class="bi bi-star text-warning"></i>
+                <i class="bi bi-star text-warning"></i>
+                <i class="bi bi-star"></i>
+                <span class="text-secondary ms-2">4.5</span>
+              </div>
+              <div class="time rounded-pill" style="background: #FFE4E8;color: #FF4A60;">
+                <p class="mb-0 p-1 px-3"><i class="bi bi-clock me-2"></i>01:30hr</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 p-3 shadow-sm border-0">
+          <img src="images/courses/course-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Powerpoint 2020 Master Powerpoint Cour</h5>
+            <p class="card-text" style="color: #FF4A60;">Walter Scott.</p>
+            <div class="course-detail d-flex align-items-start justify-content-between">
+              <div class="star">
+                <i class="bi bi-star text-warning"></i>
+                <i class="bi bi-star text-warning"></i>
+                <i class="bi bi-star text-warning"></i>
+                <i class="bi bi-star text-warning"></i>
+                <i class="bi bi-star"></i>
+                <span class="text-secondary ms-2">4.5</span>
+              </div>
+              <div class="time rounded-pill" style="background: #FFE4E8;color: #FF4A60;">
+                <p class="mb-0 p-1 px-3"><i class="bi bi-clock me-2"></i>01:20hr</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 p-3 shadow-sm border-0">
+          <img src="images/courses/course-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">The Complete JavaScript Course 2020</h5>
+            <p class="card-text" style="color: #FF4A60;">Reed Krakoff.</p>
+            <div class="course-detail d-flex align-items-start justify-content-between">
+              <div class="star">
+                <i class="bi bi-star text-warning"></i>
+                <i class="bi bi-star text-warning"></i>
+                <i class="bi bi-star text-warning"></i>
+                <i class="bi bi-star text-warning"></i>
+                <i class="bi bi-star"></i>
+                <span class="text-secondary ms-2">4.5</span>
+              </div>
+              <div class="time rounded-pill" style="background: #FFE4E8;color: #FF4A60;">
+                <p class="mb-0 p-1 px-3"><i class="bi bi-clock me-2"></i>01:30hr</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
